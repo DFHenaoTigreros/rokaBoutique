@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="es">
+  <head>
+	<meta charset="UTF-8">
+	<title>Tienda Online</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, munimum scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="img/img29.jpg">
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script defer src="js/tienda.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container container--flex">
+        <div class="main-header__container">
+          <h1 class="main-header__title">Roka Boutique</h1>
+          <nav class="main-nav" id="main-nav">
+            <ul class="menu">
+              <li class="menu__item"><a href="#inicio" class="menu__link">INICIO</a></li>
+              <li class="menu__item"><a href="#tienda" class="menu__link">TIENDA</a></li>
+              <li class="menu__item"><a href="#acercade" class="menu__link">ACERCA DE</a></li>
+              <li class="menu__item"><a href="#localizacion" class="menu__link">LOCALIZACIÓN</a></li>
+              <li class="menu__item"><a href="#contacto" class="menu__link">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-header__container">
+          <span class="main-header__txt">Necesitas Ayuda</span>
+          <p class="main-header__txt"><i class="fas fa-phone"></i> Call 12345678099</p>
+        </div>
+        <div class="main-header__container">
+          <a href="#carrito" class="main-header__btn">Mi carrito <i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </header>
+    <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+        <a id="inicio"></a>
+          <img src="img/img1.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Jean + Blusa + Bolso</h2>
+            <p class="slider__txt">Interesante venta de verano</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="img/img24.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Blusa</h2>
+            <p class="slider__txt">Interesante venta de verano</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="img/img3.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Chaqueta + Jean</h2>
+            <p class="slider__txt">Interesante venta de invierno</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="img/img4.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Conjunto</h2>
+            <p class="slider__txt">Interesante venta de verano</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <div class="container">
+        <a id="tienda"></a>
+        <h2 class="main-title">Tienda</h2>
+        <section class="container-products">
+          <div class="product">
+            <img src="img/img1.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa</h3>
+              <span class="product__price">43000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img2.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (2)</h3>
+              <span class="product__price">45000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img3.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (3)</h3>
+              <span class="product__price">66000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img4.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Bolso</h3>
+              <span class="product__price">60000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img5.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa + Jean</h3>
+              <span class="product__price">112000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img6.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Jean</h3>
+              <span class="product__price">85000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img7.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Jean (2)</h3>
+              <span class="product__price">90000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img8.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa + Jean (2)</h3>
+              <span class="product__price">113000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img9.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Chaqueta</h3>
+              <span class="product__price">68000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img10.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa + Chaqueta</h3>
+              <span class="product__price">96000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img11.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Jean (3)</h3>
+              <span class="product__price">75000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img12.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Chaqueta + Jean</h3>
+              <span class="product__price">143000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/img13.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (4)</h3>
+              <span class="product__price">49000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img14.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (5)</h3>
+              <span class="product__price">40000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img15.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (6)</h3>
+              <span class="product__price">42000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img16.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Saco</h3>
+              <span class="product__price">59000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img17.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Short + Blusa</h3>
+              <span class="product__price">95000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img18.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Jean + Blusa + Bolso</h3>
+              <span class="product__price">169000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img19.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Short</h3>
+              <span class="product__price">55000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img20.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Jean (4)</h3>
+              <span class="product__price">80000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img21.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Falda + Blusa</h3>
+              <span class="product__price">122000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img22.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (7)</h3>
+              <span class="product__price">64000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img23.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (8)</h3>
+              <span class="product__price">50000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img24.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (9)</h3>
+              <span class="product__price">58000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img25.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Conjunto</h3>
+              <span class="product__price">125000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img26.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa + Jean (3)</h3>
+              <span class="product__price">147000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img27.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Conjunto (2)</h3>
+              <span class="product__price">135000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+          <div class="product">
+            <img src="img/img28.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Blusa (10)</h3>
+              <span class="product__price">52000$</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus addToCart"></i>
+          </div>
+        </section>
+        <div class="row mt-3">
+          <div class="col">
+            <h2 class="d-flex justify-content-center mb-3">Realizar Compra</h2>
+              <form id="procesar-pago"></form>
+              <div class="form-group row">
+                <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :</label>
+                <div class="col-12 col-md-10">
+                  <input type="text" class="form-control" id="cliente" placeholder="Ingresa nombre cliente" name="destinatario">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email" class="col-12 col-md-2 col-form-label h2">Correo :</label>
+                <div class="col-12 col-md-10">
+                  <input type="text" class="form-control" id="correo" placeholder="Ingresa tu correo" name="cc_to">
+                </div>
+              </div>            
+          </div>
+        </div>
+        <section class="shopping-cart">
+          <a id="carrito"></a>
+          <h1 class="text-center">Mi carrito</h1>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <div class="shopping-cart-header">
+                <h6>Producto</h6>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="shopping-cart-header">
+                <h6 class="text-truncate">Precio</h6>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="shopping-cart-header">
+                <h6>Cantidad</h6>
+              </div>
+            </div>
+          </div>
+          <div class="shopping-cart-items shoppingCartItemsContainer">
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="shopping-cart-total d-flex align-items-center">
+                <p class="mb-0">Total</p>
+                <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000"> 
+                  <div class="toast-header">
+                    <span>✅</span>
+                    <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="toast-body text-white">Se aumentó correctamente la cantidad
+                  </div>
+                </div>
+                <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Pronto recibirá su pedido</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container-tips">
+          <div class="tip">
+            <i class="far fa-hand-paper"></i> 
+            <h2 class="tip__title">Satisfacción Garantizada</h2>
+            <p class="tip__txt">Todas tus compras cuentan con Satisfacción Garantizada. Si no quedaste conforme con un producto o no te gustó</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+          <div class="tip">
+           <i class="fas fa-rocket"></i>
+            <h2 class="tip__title">Envío Rápido</h2>
+            <p class="tip__txt">Contamos con un envío extra rápido para esos paquetes que deben llegar en tiempo récord,</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+          <div class="tip">
+            <i class="fas fa-cog"></i>
+            <h2 class="tip__title">Seguridad</h2>
+            <p class="tip__txt">los clientes confían en nosotros para proteger la información personal que comparten con nosotros</p>
+            <a href="#tienda" class="btn-shop">COMPRA AHORA</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer__section">
+        <a id="acercade"></a>   
+        <h2 class="footer__title">Acerca de</h2>
+        <p class="footer__txt">Tienda de moda femenina.</p>            
+      </div>
+      <div class="footer__section">
+        <a id="localizacion"></a>
+        <h2 class="footer__title">Localización :</h2>
+        <p class="footer__txt">Cr 15 # 14-30 𝙑𝙞𝙡𝙡𝙖𝙜𝙤𝙧𝙜𝙤𝙣𝙖 B/𝙼𝚞𝚗𝚒𝚌𝚒𝚙𝚊𝚕</p>
+      </div>
+      <div class="footer__section">
+        <a id="contacto"></a>
+        <h2 class="footer__title">Contacto</h2>
+        <p class="footer__txt">Teléfono : +57 316 251 5457</p>
+        <p class="footer__txt">Correo electrónico : rokaboutique21@gmail.com</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Enlaces Rápidos</h2>
+        <a href="#inicio" class="footer__link">Inicio</a>
+        <a href="#tienda" class="footer__link">Tienda</a>
+        <a href="#carrito" class="footer__link">Mi carrito</a>
+      </div>
+      <p class="copy">© 2024 Roka Boutique. Reservados Todos los Derechos | Diseñado por David Henao</p>
+    </footer>
+  </body>
+</html>
